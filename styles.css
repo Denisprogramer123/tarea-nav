@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+:root {
+--verde: rgba(5, 45, 176, 0.839);
+--verd: rgb(0, 183, 255);
+--ver: rgb(173, 211, 235); 
+
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    
+
+}
+
+/* header */
+  
+header{
+    background: rgb(29, 127, 219);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    tod: 0;
+}
+
+.logo {
+    height: 80%;
+    
+}
+.navbar, 
+.navbar-list {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar {
+gap: 150px;
+}
+.navbar-list {
+gap: 30px;
+}
+.navbar-list a {
+color:brown
+font-size: 14px;
+}
+.navbar-list li:first-child > a {
+    color:rgb(238, 34, 34);
+}
+.cart-icon {
+    height: 40%;
+}
